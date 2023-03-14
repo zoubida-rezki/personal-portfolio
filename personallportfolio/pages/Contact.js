@@ -86,7 +86,7 @@ export default function Contact() {
 
     if (isValidForm) {
       setButtonText("Sending");
-      const res = await fetch("http://localhost:9000/Emailsender", {
+      const res = await fetch("/api/Emailsender", {
         body: JSON.stringify({
           email: email,
           name: fullname,
