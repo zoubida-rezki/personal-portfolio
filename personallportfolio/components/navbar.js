@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 // import logo from '../assets/pizzaLogo.jpg';
-import{Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import Link from 'next/link';
+import '../styles/Navbar.module.css';
 import ReorderIcon from '@mui/icons-material/Reorder';
 // import { Button } from '@mui/material';
 
@@ -17,17 +17,17 @@ const toggleNavbar =()=>{
            <h1>Zoubida Rezki</h1>
             {/* <img src={logo} alt="pizza"/> */}
             <div className='hiddenLinks'>
-            <Link to= "/">home </Link>
-            <Link to= "/Projects">Projects </Link>
-            <Link to= "/about">about </Link>
-            <Link to= "/contact">contact </Link>
+            <Link href= "/">Home </Link>
+            <Link href= "/Projects">Projects </Link>
+            <Link href= "/About">About </Link>
+            <Link href= "/Contact">Contact </Link>
             </div>
         </div>
         <div className='rightSide'>
-            <Link to= "/">home </Link>
-            <Link to= "/Projects">Projects </Link>
-            <Link to= "/about">about </Link>
-            <Link to= "/contact">contact </Link>
+            <Link href="/">home </Link>
+            <Link href="/Projects">Projects </Link>
+            <Link href="/About">About </Link>
+            <Link href="/Contact">Contact </Link>
 <button onClick={toggleNavbar}>
   <ReorderIcon/>
 </button>

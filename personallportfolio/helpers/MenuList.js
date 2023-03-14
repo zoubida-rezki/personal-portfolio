@@ -1,7 +1,7 @@
-import card_game from "../assets/card_game.png";
-import Vegan from "../assets/vegan.jpg";
-import Margherita from "../assets/margherita.jpg";
-import Pineapple from "../assets/pineapple.jpg";
+import card_game from "../public/assets/card_game.png";
+import Vegan from "../public/assets/vegan.jpg";
+import Margherita from "../public/assets/margherita.jpg";
+import Pineapple from "../public/assets/pineapple.jpg";
 
 
 export const MenuList =[

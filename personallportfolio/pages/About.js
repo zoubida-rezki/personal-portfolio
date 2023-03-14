@@ -1,6 +1,6 @@
 import React from 'react';
-import Multipleimages from "../assets/dzair.jpg"; 
-import "../styles/About.css";
+import Multipleimages from "../public/assets/dzair.jpg"; 
+import "../styles/About.module.css";
 function About() {
   // blogs maybe ????
   
