@@ -1,6 +1,6 @@
 import React from 'react';
 import { MenuList } from "../helpers/MenuList.js";
-import Menuitem from '../components/Menuitem.js';
+import Menuitem from '../../../components/Menuitem.js.js';
 import styles from "../styles/Menu.module.css"
 function Projects() {
   // how the hell am i gonna link all my projects

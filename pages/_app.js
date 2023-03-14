@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import { Nav , Footer} from "../components";
+import { Nav , Footer} from "../../../components";
 
 export default function App({ Component, pageProps }) {
   return (
