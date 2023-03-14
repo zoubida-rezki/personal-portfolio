@@ -1,6 +1,6 @@
 import React from 'react';
 import Multipleimages from "../public/assets/dzair.jpg"; 
-import zhr from "../public/assets/zhr.webp";
+// import zhr from "../public/assets/zhr.webp";
 import Image from 'next/image';
 import styles from "../styles/About.module.css";
 function About() {
@@ -12,8 +12,9 @@ function About() {
     <div className={styles.aboutBottom}>
     <h1>About </h1>
       <Image 
-            src={zhr}
+            src={Multipleimages}
             alt="/"
+            style={styles.aboutTop}
             width="350"
             height="350"
             layout="intrinsic"

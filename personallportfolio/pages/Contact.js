@@ -215,8 +215,9 @@ export default function Contact() {
         </form>
             
                 <ul>
-                    <li>Email  -{">"} floreskevin51398@gmail.com </li>
-                    <li> LinkedIn -{">"} <a href="https://www.linkedin.com/in/flores-kevin/">flores-kevin</a> </li> 
+                  <h1>bscskuuuisruhrhjhnsiewj;urhbrhbb</h1>
+                    {/* <li>Email  -{">"} floreskevin51398@gmail.com </li>
+                    <li> LinkedIn -{">"} <a href="https://www.linkedin.com/in/flores-kevin/">flores-kevin</a> </li>  */}
                     
                 </ul>  
             </div>
