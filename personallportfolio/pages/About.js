@@ -21,7 +21,7 @@ function About() {
             objectFit="cover"
             priority
             />
-    <p> currentlly a secound year    computer science major with experience in full-stack web dev and machine learning  </p>
+    <p> currentlly a secound year computer science major with experience in full-stack web dev and machine learning  </p>
 </div>
     </div>
   )
