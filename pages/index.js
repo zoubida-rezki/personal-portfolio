@@ -1,29 +1,30 @@
+import { style } from '@mui/system';
 import Image from 'next/image';
-import BannerImage from "../public/assets/ma9am_alshahid.jpg";
+import BannerImage from "../public/assets/linkedinimage.jpg";
+import styles from "../styles/Home.module.css"
 
 export default function Home() {
 
   return (
      <div >
       <header className="Home-header">
-        <div >
-            <Image 
-            src={BannerImage}
-            alt="/"
-            layout="intrinsic"
-            objectFit="cover"
-            priority
-            />
-        </div>
-        <div className="App-welcome-section">
-          <p className="home">
-              Hello
-          </p>
-           There will be better styles for the css after finals, aswell as a better logo and better integration with Github, Wakatime, and other APIs.
-         </div> 
+            
        </header> 
-       <div  >
-       </div>
+
+      <div className={styles.body}>
+       <h1  className={styles.text}>
+       <p>hello </p> 
+        my name is zoubida rezki and welcom to my website
+       </h1>
+       <Image 
+            src={BannerImage}
+            // alt="/"
+            // style={styles.image}
+            // layout="intrinsic"
+            // objectFit="cover"
+            // priority
+            />
+      </div> 
     </div> 
     );
 }

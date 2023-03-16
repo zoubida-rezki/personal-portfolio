@@ -1,7 +1,9 @@
 import card_game from "../public/assets/card_game.png";
-import Vegan from "../public/assets/vegan.jpg";
-import Margherita from "../public/assets/margherita.jpg";
-import Pineapple from "../public/assets/pineapple.jpg";
+import pizzasite from "../public/assets/pizzasite.png";
+import filmweb from "../public/assets/filmweb.png";
+import weatherapp from "../public/assets/image.png";
+import OilAtlas from "../public/assets/codeRed.png";
+
 
 
 export const MenuList =[
@@ -12,17 +14,24 @@ export const MenuList =[
     },
     {
       name: "film website",  
-      link: "   https://github.com/zoubida-rezki/card-game",
-      image: Margherita,
+      link: "https://github.com/zoubida-rezki/film-website.git",
+      image: filmweb,
     },
     {
-      name: "rust server",
-      link: "   https://github.com/zoubida-rezki/card-game",
-      image: Vegan,
+      name: "pizza site",
+      link: "https://github.com/zoubida-rezki/pizza-site",
+      image: pizzasite,
     },
     {
-      name: "weather app",
-      link: "   https://github.com/zoubida-rezki/card-game",
-      image: Pineapple,
+      name: "weather app (on replit)",
+      link: "https://replit.com/join/hnfxxyzjzx-zoubidarezki",
+      image: weatherapp,
     },
+    {
+      name: "OIlAtlas, Code Red hackathon",
+      link: "https://github.com/KevFlo/CodeRed-BitFlippers",
+      image: OilAtlas,
+    },
+
+    
 ];

@@ -35,3 +35,26 @@
     justify-content: center;
     transform: translateY(-40px);
   }
+
+  .image{
+    height: 1000px; 
+    width: 1000px;
+     margin-left: 15%;
+     margin-right: 15%;
+     background-color: azure;
+     
+    /* display: flex; */
+     /* background-image: url("../public/assets/dzair2.jpg" ); */
+  }
+
+  .title{
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+
+  .text{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }

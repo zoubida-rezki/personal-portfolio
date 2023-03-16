@@ -6,18 +6,24 @@ import styles from '../styles/Menu.module.css'
 function Menuitem({image,name,link}) {
   return (
     <div className={styles.menuItem}>
-    {/* <div></div> */}
-        <h1>{name}</h1>
+      <h1>{name}</h1>
+
         <Image 
             src={image}
             alt="/"
-            style={styles.menuItem}
+            // style={styles.menuItem}
+            
+            // hieght="350"
+            // width="350"
+            // size= "fluid"
             layout="intrinsic"
             objectFit="contain"
             priority
             />
-        <a href={link}  target="_blank" rel="noreferrer"> link</a> 
-
+            
+            <p>
+        <a href={link}  target="_blank" rel="noreferrer"> <button>link</button></a> 
+        </p>
     </div>
   )
 }
